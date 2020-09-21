@@ -69,6 +69,9 @@ main {
   padding: 0 5%; 
 }
 /* NAVIGATION STYLING */
+.mobile-nav, .mobile-button {
+  display: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -133,4 +136,20 @@ nav ul li {
 /* FOOTER STYLES */
 footer {
   text-align: center;
+}
+
+
+/* MOBILE STLYING */
+
+@media(max-width: 592px) {
+  .mobile-button {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .features-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
