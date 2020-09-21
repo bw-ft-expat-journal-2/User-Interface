@@ -103,13 +103,15 @@ nav div {
 }
 nav ul li {
   padding-right: 3%;
-  color: white;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
   padding-top: .5%;
   font-weight: 5500;
 }
-nav ul li:hover {
+nav ul li a {
+  color: white;
+}
+nav ul li a:hover {
   color: #66FCF1;
   cursor: pointer;
 }
@@ -210,6 +212,15 @@ footer {
   text-align: center;
 }
 
+/* MEET THE TEAM PAGE STYLING */
+.meet-the-team-main {
+  padding-top: 3%;
+}
+.team-title {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
 
 /* MOBILE STLYING */
 
