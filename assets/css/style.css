@@ -276,12 +276,62 @@ footer a:hover {
 
 /* MEET THE TEAM PAGE STYLING */
 .meet-the-team-main {
-  padding-top: 3%;
+  padding-top: 4%;
 }
 .team-title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: white;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 4%;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: 22%;
+  text-align: center;
+  color: white;
+  margin-bottom: 3%;
+  background-color: #45A29E;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: inset 0 0 7px #000000;
+  border: 1px solid black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.profile-name img {
+  border-radius: 50%;
+  max-width: 150px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.position-title {
+  font-weight: bold;
+}
+
+.name-title p {
+  font-size: 1.8rem;
+  margin-bottom: 5.5%;
+}
+
+.team-member-description {
+  margin-bottom: 5.5%;
+}
+
+.team-member a {
+  color: #66FCF1;
+  transition: all .3s;
+}
+
+.team-member a:hover {
+  color: blue;
+  cursor: pointer;
 }
 
 /* MOBILE STLYING */
