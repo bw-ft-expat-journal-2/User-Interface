@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain)
@@ -55,14 +56,14 @@ a {
 }
 * {
   box-sizing: border-box;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
 }
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
-  
+  background-color: #0B0C10;
 }
 
 main {
@@ -72,31 +73,83 @@ main {
 .mobile-nav, .mobile-button {
   display: none;
 }
+header {
+  background-color: #0B0C10;
+}
+header .logo {
+  padding-left: 4%;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+  background-color: transparent;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding: 3% 1%;
 }
-
 nav ul{
   display: flex;
   justify-content: space-around;
   width: 70%;
 }
-
 nav div {
   width: 30%;
 }
-
 nav ul li {
   padding-right: 3%;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: .5%;
+  font-weight: 5500;
+}
+nav ul li:hover {
+  color: #66FCF1;
+  cursor: pointer;
 }
 
 /* HERO SECTION STYLING */
 
 .hero {
   text-align: center;
+  padding: 2%;
+  height: 25vh;
+}
+.hero .container {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.hero h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1%;
+  padding-bottom: 2%;
+  font-size: 2.5rem;
+}
+.hero nav {
+  padding-top: 2%;
+}
+.hero a {
+  background-color: #66FCF1;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: .75% 2%;
+  font-size: 1.75rem;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.hero a:hover {
+  opacity: 1;
 }
 
 /* MAIN SECTION STYLING */
@@ -111,8 +164,23 @@ nav ul li {
 .mission-container {
   display: flex;
 }
-
-.mission-container p, .mission-container img {
+.mission-statement .section-title {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  padding: .5%;
+  font-size: 2.5rem;
+  padding-top: 2%;
+}
+.mission-container p {
+  color: white;
+  font-size: 2rem;
+}
+.mission-container div {
+  display: flex;
+  justify-content: center;
+}
+.mission-container p, .mission-container div {
   width: 50%;
 }
 
