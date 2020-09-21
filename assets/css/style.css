@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid lightgrey;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -55,11 +55,82 @@ a {
 }
 * {
   box-sizing: border-box;
+  border: 1px solid lightgrey;
 }
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
+  
 }
 
+main {
+  padding: 0 5%; 
+}
+/* NAVIGATION STYLING */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3% 1%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+nav div {
+  width: 30%;
+}
+
+nav ul li {
+  padding-right: 3%;
+}
+
+/* HERO SECTION STYLING */
+
+.hero {
+  text-align: center;
+}
+
+/* MAIN SECTION STYLING */
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* MISSION SECTION */
+
+.mission-container {
+  display: flex;
+}
+
+.mission-container p, .mission-container img {
+  width: 50%;
+}
+
+/* FEATURES SECTION */
+.features-container {
+  display: flex;
+}
+
+.img-name-container {
+  display: flex;
+}
+
+.img-name-container img {
+  width: 30%;
+}
+
+.img-name-container p {
+  width: 70%;
+}
+
+/* FOOTER STYLES */
+footer {
+  text-align: center;
+}
