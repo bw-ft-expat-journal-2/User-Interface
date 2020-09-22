@@ -71,6 +71,12 @@ body {
 main {
   padding: 0 5%; 
 }
+/* END OF http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+
 /* NAVIGATION STYLING */
 header {
   background-color: #0B0C10;
@@ -253,9 +259,10 @@ nav ul li a:hover {
   color: #66FCF1;
   cursor: pointer;
 }
+/* END OF NAVIGATION STYLING */
+
 
 /* HERO SECTION STYLING */
-
 .hero {
   text-align: center;
   padding: 2%;
@@ -288,9 +295,10 @@ nav ul li a:hover {
 .hero a:hover {
   background-color: #66FCF1;
 }
+/* END OF HERO SECTION STYLING */
+
 
 /* MAIN SECTION STYLING */
-
 .section-title {
   text-align: center;
   color: white;
@@ -301,9 +309,10 @@ nav ul li a:hover {
   padding-top: 6%;
   padding-bottom: 5%;
 }
+/* END MAIN SECTION STYLING */
 
-/* MISSION SECTION */
 
+/* MISSION SECTION STYLING */
 .mission-container {
   display: flex;
   align-items: center;
@@ -328,9 +337,10 @@ nav ul li a:hover {
 .mission-container div {
   width: 50%;
 }
+/* END MISSION SECTION STYLING */
 
-/* FEATURES SECTION */
 
+/* FEATURES SECTION STYLING */
 .features-container {
   display: flex;
 }
@@ -363,6 +373,9 @@ nav ul li a:hover {
   font-size: 1.8rem;
   text-align: center;
 }
+/* END FEATURES SECTION STYLING */
+
+
 /* BUILD FRAMEWORK STYLES */
 .build-framework {
   display: flex;
@@ -375,18 +388,15 @@ nav ul li a:hover {
   padding-bottom: 2%;
   font-size: 1.8rem;
 }
-
 .framework-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .left-frameworks, .right-frameworks {
   width: 47%;
   flex: 1 1 300px;
 }
-
 .a-framework {
   display: flex;
   margin-bottom: 7%;
@@ -397,7 +407,6 @@ nav ul li a:hover {
   padding: 2%;
   box-shadow: inset 3px 3px 5px black;
 }
-
 .a-framework .img-container {
   width: 20%;
   margin-right: 5%;
@@ -408,12 +417,14 @@ nav ul li a:hover {
   text-shadow: 3px 3px 5px black;
   font-size: 2.5rem;
 }
-
 .a-framework .img-container img {
   border-radius: 50%;
   box-shadow: 3px 3px 5px black;
   background-color: white;
 }
+/* END BUILD FRAMEWORK STYLES */
+
+
 /* FOOTER STYLES */
 footer {
   text-align: center;
@@ -444,6 +455,8 @@ footer a {
 footer a:hover {
   background-color: #66FCF1;
 }
+/* END FOOTER STYLES */
+
 
 /* MEET THE TEAM PAGE STYLING */
 .meet-the-team-main {
@@ -456,13 +469,11 @@ footer a:hover {
   font-family: 'Ubuntu', sans-serif;
   margin-bottom: 4%;
 }
-
 .team-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .team-member {
   flex: 1 1 220px;
   text-align: center;
@@ -475,31 +486,25 @@ footer a:hover {
   border: 1px solid black;
   font-family: 'Ubuntu', sans-serif;
 }
-
 .profile-name img {
   border-radius: 50%;
   max-width: 150px;
   box-shadow: 1px 1px 3px black;
 }
-
 .position-title {
   font-weight: bold;
 }
-
 .name-title p {
   font-size: 1.8rem;
   margin-bottom: 5.5%;
 }
-
 .team-member-description {
   margin-bottom: 5.5%;
 }
-
 .team-member a {
   color: #66FCF1;
   transition: all .3s;
 }
-
 .team-member a:hover {
   color: blue;
   cursor: pointer;
@@ -573,31 +578,121 @@ footer a:hover {
   top: 2px;
 }
 /* ABOUT STYLING */
-.about-info {
+.about-top {
+  margin-top: 4%;
   display: flex;
   justify-content: center;
+}
+.about-top .about-top-text {
+  display: flex;
   flex-direction: column;
-  text-align: center;
+  width: 75%;
 }
-.about-title {
-  align-items: center;
+.about-top .about-top-text p {
+  color: white;
+  width: 65%;
+  padding: 2%;
+  padding-top: 1%;
+  padding-left: 10%;
+  font-size: 2.1rem;
 }
-.about-info h2 {
+.about-top .about-top-text h2 {
   color: white;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 4rem;
-  margin-top: 6%;
-  margin-bottom: 4%;
+  font-size: 3rem;
+  padding: 2%;
 }
-.about-info p {
+.about-top .about-top-logo {
+  width: 25%;
+  text-align: center;
+  padding-top: 2%;
+}
+.about-top .about-top-logo img {
+  border: none;
+  height: 35vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-middle {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+.about-middle .about-middle-text {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.about-middle .about-middle-text p {
   color: white;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.2rem;
-  margin-bottom: 4%;
+  width: 100%;
+  padding: 2%;
+  padding-top: 1%;
+  padding-left: 50%;
+  padding-right: 9%;
+  font-size: 2.1rem;
 }
-/* MOBILE STLYING */
+.about-middle .about-middle-text h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  padding: 2%;
+  padding-left: 42%;
+}
+.about-middle .about-middle-logo {
+  width: 25%;
+  text-align: center;
+  padding-top: 2%;
+}
+.about-middle .about-middle-logo img {
+  border: none;
+  height: 35vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-bottom {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.about-bottom .about-bottom-text {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.about-bottom .about-bottom-text p {
+  color: white;
+  width: 65%;
+  padding: 2%;
+  padding-top: 1%;
+  padding-left: 10%;
+  font-size: 2.1rem;
+}
+.about-bottom .about-bottom-text h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  padding: 2%;
+}
+.about-bottom .about-bottom-logo {
+  width: 25%;
+  text-align: center;
+  padding-top: 2%;
+}
+.about-bottom .about-bottom-logo img {
+  border: none;
+  height: 35vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* END ABOUT STYLING */
 
+
+/* MOBILE STLYING */
 @media(max-width: 592px) {
   #header .hamburger {
     display: flex;
@@ -610,3 +705,110 @@ footer a:hover {
     justify-content: center;
   }
 }
+@media(max-width: 1024px) {
+  .about-bottom .about-bottom-text p {
+    width: 100%;
+  }
+  .about-bottom .about-bottom-logo {
+    padding-top: 8%;
+  }
+  .about-bottom .about-bottom-logo img {
+    height: 40vh;
+  }
+  .about-middle .about-middle-text p {
+    padding-left: 2%;
+  }
+  .about-middle .about-middle-text h2 {
+    padding-left: 2%;
+  }
+  .about-middle .about-middle-logo img {
+    height: 40vh;
+  }
+  .about-middle .about-middle-logo {
+    padding-top: 6%;
+  }
+  .about-top .about-top-text p {
+    width: 100%;
+  }
+  .about-top .about-top-logo {
+    padding-top: 8%;
+  }
+  .about-top .about-top-logo img {
+    height: 40vh;
+  }
+}
+@media (max-width: 768px) {
+  .about-bottom .about-bottom-logo {
+    padding-top: 15%;
+    padding-left: 4%;
+  }
+  .about-middle .about-middle-logo {
+    padding-top: 15%;
+    padding-right: 4%;
+  }
+  .about-top .about-top-logo {
+    padding-top: 15%;
+    padding-left: 4%;
+  }
+}
+@media (max-width: 730px) {
+  .about-top {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  .about-top .about-top-text h2 {
+    padding: 2% 1%;
+  }
+  .about-top .about-top-text p {
+    padding: 4%;
+  }
+  .about-top .about-top-logo img {
+    height: 0;
+  }
+  .about-top .about-top-logo {
+    display: none;
+  }
+  .about-top .about-top-text {
+    text-align: center;
+    padding: 0;
+  }
+  .about-middle {
+    margin-bottom: 15%;
+  }
+  .about-middle .about-middle-text h2 {
+    padding: 2% 1%;
+  }
+  .about-middle .about-middle-text p {
+    padding: 4%;
+  }
+  .about-middle .about-middle-logo img {
+    height: 0;
+  }
+  .about-middle .about-middle-logo {
+    display: none;
+  }
+  .about-middle .about-middle-text {
+    text-align: center;
+    padding: 0;
+  }
+  .about-bottom {
+    margin-bottom: 15%;
+  }
+  .about-bottom .about-bottom-text h2 {
+    padding: 2% 1%;
+  }
+  .about-bottom .about-bottom-text p {
+    padding: 4%;
+  }
+  .about-bottom .about-bottom-logo img {
+    height: 0;
+  }
+  .about-bottom .about-bottom-logo {
+    display: none;
+  }
+  .about-bottom .about-bottom-text {
+    text-align: center;
+    padding: 0;
+  }
+}
+/* END MOBILE STYLING */
