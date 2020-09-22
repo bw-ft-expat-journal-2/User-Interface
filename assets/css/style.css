@@ -173,7 +173,7 @@ header {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  border: 3px solid #8A2BE2;
+  border: 3px solid #66FCF1;
   animation: hamburger_pulse 1s ease infinite;
 }
 #header .hamburger .bar {
