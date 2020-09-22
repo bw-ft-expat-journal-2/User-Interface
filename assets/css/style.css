@@ -274,21 +274,20 @@ nav ul li a:hover {
   font-size: 2.5rem;
 }
 .hero a {
-  background-color: #66FCF1;
+  background-color: #45A29E;
   border: none;
   border-radius: 10px;
   color: black;
   padding: .75% 2%;
   font-size: 1.75rem;
   margin: 4px 2px;
-  opacity: 0.6;
   transition: 0.3s;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 .hero a:hover {
-  opacity: 1;
+  background-color: #66FCF1;
 }
 
 /* MAIN SECTION STYLING */
