@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -274,13 +274,14 @@ nav ul li a:hover {
   font-size: 2.5rem;
 }
 .hero a {
-  background-color:#45A29E;
+  background-color: #66FCF1;
   border: none;
   border-radius: 10px;
   color: black;
   padding: .75% 2%;
   font-size: 1.75rem;
   margin: 4px 2px;
+  opacity: 0.6;
   transition: 0.3s;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
@@ -288,7 +289,6 @@ nav ul li a:hover {
 }
 .hero a:hover {
   opacity: 1;
-  background-color: #66FCF1;
 }
 
 /* MAIN SECTION STYLING */
@@ -376,7 +376,45 @@ nav ul li a:hover {
   padding: 2% 0;
   padding-bottom: 2%;
   font-size: 1.8rem;
-  width: 50%;
+}
+
+.framework-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.left-frameworks, .right-frameworks {
+  width: 47%;
+  flex: 1 1 300px;
+}
+
+.a-framework {
+  display: flex;
+  margin-bottom: 7%;
+  align-items: center;
+  background-color: #45A29E;
+  border-radius: 10px;
+  width:95%;
+  padding: 2%;
+  box-shadow: inset 3px 3px 5px black;
+}
+
+.a-framework .img-container {
+  width: 20%;
+  margin-right: 5%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 3px 3px 5px black;
+  font-size: 2.5rem;
+}
+
+.a-framework .img-container img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px black;
+  background-color: white;
 }
 /* FOOTER STYLES */
 footer {
