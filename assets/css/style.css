@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -72,33 +72,6 @@ main {
   padding: 0 5%; 
 }
 /* NAVIGATION STYLING */
-<<<<<<< HEAD
-.mobile-nav, .mobile-button {
-  display: none;
-}
-
-
-.mobile-button {
-  background-color: #66FCF1;
-  padding: 0px 13px;
-  font-size: 3rem;
-  position: absolute;
-  right: 10px;
-  z-index: 100;
-}
-
-.mobile-nav {
-  text-align: center;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  background-color: #66FCF1;
-  opacity: 0;
-  transition: all .3s;
-  padding-top: 10%;
-}
-=======
->>>>>>> 94341cd2f18ef106aa1087c52430b05e8dc37d77
 header {
   background-color: #0B0C10;
 }
@@ -301,13 +274,14 @@ nav ul li a:hover {
   font-size: 2.5rem;
 }
 .hero a {
-  background-color:#45A29E;
+  background-color: #66FCF1;
   border: none;
   border-radius: 10px;
   color: black;
   padding: .75% 2%;
   font-size: 1.75rem;
   margin: 4px 2px;
+  opacity: 0.6;
   transition: 0.3s;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
@@ -315,7 +289,6 @@ nav ul li a:hover {
 }
 .hero a:hover {
   opacity: 1;
-  background-color: #66FCF1;
 }
 
 /* MAIN SECTION STYLING */
