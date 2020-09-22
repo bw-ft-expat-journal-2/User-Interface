@@ -86,9 +86,6 @@ header {
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
 }
-#header h1 span{
-  color: #8A2BE2;
-}
 #header .header {
   min-height: 8vh;
   background-color: rgba(31, 30, 30, 0);
@@ -506,6 +503,74 @@ footer a:hover {
 .team-member a:hover {
   color: blue;
   cursor: pointer;
+}
+
+/* REVIEWS PAGE STYLING */
+
+.reviews-header {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.reviews-main-title {
+  font-size: 7rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 2.5%;
+}
+
+.reviews-sub-title {
+  font-size: 4rem;
+}
+
+.reviews-header-text {
+  text-align: right;
+}
+
+.reviews-header-img, .reviews-header-text {
+  width: 50%;
+  padding: 5% 2%;
+}
+
+.reviews-header-img img {
+  max-width: 70%;
+}
+
+.reviews-headers-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.reviews-headers-buttons a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 5% 7%;
+}
+
+.review-btn-one {
+  background-color: #66FCF1;
+  color: #1F2833;
+  transition: all .2s;
+  position: relative;
+}
+
+.review-btn-one:hover {
+  background-color: #45A29E;
+  top: 2px;
+}
+
+.review-btn-two {
+  color: #0B0C10;
+  background-color: #C5C6C7;
+  transition: all .2s;
+  position: relative;
+}
+
+.review-btn-two:hover {
+  background-color: #45A29E;
+  top: 2px;
 }
 /* ABOUT STYLING */
 .about-info {
