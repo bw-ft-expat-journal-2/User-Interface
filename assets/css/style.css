@@ -517,6 +517,10 @@ footer .footer-nav a:hover {
   margin-bottom: 4%;
 }
 
+.walk-through-image-container {
+  width: 45%;
+}
+
 .steps-container {
   display: flex;
   justify-content: space-between;
