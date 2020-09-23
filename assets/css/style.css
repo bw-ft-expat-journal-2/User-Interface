@@ -482,6 +482,53 @@ footer .footer-nav a:hover {
 }
 /* END FOOTER STYLES */
 
+/* WALK THROUGH STYLING */
+
+.walk-through-main {
+  color: white;
+  margin-top: 2%;
+}
+
+.walk-through-main ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.walk-through-main ol li {
+  padding: 2%;
+  width: 47%;
+  margin-bottom: 3%;
+  font-size: 3.5rem;
+  list-style: upper-roman;
+}
+
+.walk-through-main ol li p {
+  font-size: 2rem;
+  list-style: upper-roman;
+}
+
+.walk-through-title {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 4%;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.the-step {
+  font-size: 3.5rem;
+}
+
+.step-info {
+  width: 50%;
+}
 
 /* MEET THE TEAM PAGE STYLING */
 .meet-the-team-main {
@@ -825,6 +872,15 @@ footer .footer-nav a:hover {
   }
   .reviews-header-img, .reviews-header-text {
     width: 90%;
+  }
+}
+
+@media(max-width: 938px) {
+  .walk-through-main ol li {
+    width: 80%;
+  }
+  .walk-through-main ol {
+    justify-content: center;
   }
 }
 @media (max-width: 768px) {
