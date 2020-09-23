@@ -890,6 +890,9 @@ footer a:hover {
   .reviews-sub-title {
     font-size: 3rem;
   }
+  .review-info p {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 584px) {
