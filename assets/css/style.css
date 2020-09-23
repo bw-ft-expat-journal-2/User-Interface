@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -247,12 +247,14 @@ nav div {
 }
 nav ul li {
   padding-right: 3%;
+  padding-top: 2%;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
-  padding-top: .5%;
-  font-weight: 5500;
+  font-weight: 800;
 }
 nav ul li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
 }
 nav ul li a:hover {
@@ -476,7 +478,7 @@ footer a:hover {
   justify-content: space-between;
 }
 .team-member {
-  flex: 1 1 220px;
+  flex: 1 1 250px;
   text-align: center;
   color: white;
   margin: 3% 1.5%;
@@ -539,6 +541,11 @@ footer a:hover {
   padding: 5% 2%;
 }
 
+.reviews-header-img {
+  display: flex;
+  justify-content: center;
+}
+
 .reviews-header-img img {
   max-width: 70%;
 }
@@ -579,6 +586,53 @@ footer a:hover {
   background-color: #45A29E;
   top: 2px;
 }
+
+.the-reviews {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.a-review {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.review-right {
+  text-align: right;
+}
+
+.review-info {
+  margin: 0 3%;
+}
+
+.a-review h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.a-review p {
+  font-size: 2.5rem;
+}
+
+.a-review .circle-background {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 50%;
+  width: 25%;
+  padding: 5%;
+  background-color: #66FCF1;
+  box-shadow: inset 3px 3px 5px black;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
 /* ABOUT STYLING */
 .about-top {
   margin-top: 4%;
@@ -588,7 +642,7 @@ footer a:hover {
 .about-top .about-top-text {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 70%;
 }
 .about-top .about-top-text p {
   color: white;
@@ -706,6 +760,9 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
   }
+  .the-reviews {
+    width: 100%;
+  }
 }
 @media(max-width: 1024px) {
   .about-bottom .about-bottom-text p {
@@ -738,6 +795,12 @@ footer a:hover {
   .about-top .about-top-logo img {
     height: 40vh;
   }
+  .reviews-header {
+    flex-direction: column;
+  }
+  .reviews-header-img, .reviews-header-text {
+    width: 90%;
+  }
 }
 @media (max-width: 768px) {
   .about-bottom .about-bottom-logo {
@@ -751,6 +814,15 @@ footer a:hover {
   .about-top .about-top-logo {
     padding-top: 15%;
     padding-left: 4%;
+  }
+  .mission-container p {
+    padding-left: 0;
+    padding-right: 10%;
+    padding-top: 4%;
+  }
+  .a-review .circle-background {
+    padding: 10%;
+    width: 30%;
   }
 }
 @media (max-width: 730px) {
@@ -812,14 +884,21 @@ footer a:hover {
     text-align: center;
     padding: 0;
   }
-}
-@media (max-width: 768px){
-  .mission-container p {
-    padding-left: 0;
-    padding-right: 10%;
-    padding-top: 4%;
+  .reviews-main-title {
+    font-size: 5rem;
+  }
+  .reviews-sub-title {
+    font-size: 3rem;
   }
 }
+
+@media (max-width: 584px) {
+  .reviews-headers-buttons a {
+    font-size: 1.6rem;
+    padding: 4% 5%;
+  }
+}
+
 @media (max-width: 425px) {
   main{
     margin: 0;
@@ -833,6 +912,13 @@ footer a:hover {
     width: 100%;
     padding: 4%;
     padding-bottom: 10%;
+  }
+  .reviews-headers-buttons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .reviews-headers-buttons a {
+    margin-bottom: 1.5%;
   }
 }
 /* END MOBILE STYLING */
