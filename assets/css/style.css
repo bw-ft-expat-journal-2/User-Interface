@@ -442,7 +442,7 @@ footer {
   text-align: center;
   padding-top: 2%;
   background-color: #0B0C10;
-  height: 18vh;
+  height: 21vh;
 }
 footer p {
   color: white;
@@ -451,7 +451,10 @@ footer p {
   padding-bottom: 2%;
   padding-top: 1%;
 }
-footer a {
+footer .button-discover {
+  margin-bottom: 2%;
+}
+footer .button-discover a {
   background-color: #45A29E;
   border: none;
   border-radius: 10px;
@@ -464,8 +467,18 @@ footer a {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
-footer a:hover {
+footer .button-discover a:hover {
   background-color: #66FCF1;
+}
+footer .footer-nav a {
+  color: white;
+  text-transform: uppercase;
+  padding: .3% 1%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+footer .footer-nav a:hover {
+  color: #66FCF1;
 }
 /* END FOOTER STYLES */
 
