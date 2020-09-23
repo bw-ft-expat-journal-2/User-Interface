@@ -590,6 +590,7 @@ footer .footer-nav a:hover {
   color: #1F2833;
   transition: all .2s;
   position: relative;
+  z-index: -1;
 }
 
 .review-btn-one:hover {
@@ -602,6 +603,7 @@ footer .footer-nav a:hover {
   background-color: #C5C6C7;
   transition: all .2s;
   position: relative;
+  z-index: -1;
 }
 
 .review-btn-two:hover {
