@@ -286,7 +286,7 @@ nav ul li a:hover {
   border: none;
   border-radius: 10px;
   color: black;
-  padding: 5% 10%;
+  padding: 1.5% 2%;
   font-size: 1.75rem;
   
   transition: 0.3s;
@@ -909,6 +909,10 @@ footer a:hover {
   .hero {
     height: 32vh;
     margin-bottom: 3%;
+  }
+
+  .hero a {
+    padding: 5% 10%;
   }
   .a-framework .img-container {
     margin-right: 12%;
