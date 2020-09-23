@@ -346,8 +346,17 @@ nav ul li a:hover {
 /* FEATURES SECTION STYLING */
 .features-container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.feature {
+  flex: 1 1 300px;
+  margin: 2%;
+}
+
 .features-container h3 {
+  margin-left: 1.5%;
   color: white;
   width: 100%;
   text-transform: uppercase;
