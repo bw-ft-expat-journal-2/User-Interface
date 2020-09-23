@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  /* border: 1px solid lightgrey; */
+  border: 1px solid lightgrey;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -321,9 +321,10 @@ nav ul li a:hover {
 }
 .mission-container p {
   color: white;
-  font-size: 1.8rem;
-  padding: 2%;
-  padding-bottom: 4%;
+  font-size: 2.5rem;
+  padding: 1%;
+  padding-bottom: 2%;
+  padding-left: 8%;
 }
 .mission-img img {
   border: none;
@@ -810,6 +811,28 @@ footer a:hover {
   .about-bottom .about-bottom-text {
     text-align: center;
     padding: 0;
+  }
+}
+@media (max-width: 768px){
+  .mission-container p {
+    padding-left: 0;
+    padding-right: 10%;
+    padding-top: 4%;
+  }
+}
+@media (max-width: 425px) {
+  main{
+    margin: 0;
+    padding: 0;
+  }
+  .mission-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mission-container p {
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 10%;
   }
 }
 /* END MOBILE STYLING */
