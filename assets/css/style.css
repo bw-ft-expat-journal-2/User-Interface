@@ -640,26 +640,21 @@ footer .footer-nav a:hover {
   background-color: #66FCF1;
   color: #1F2833;
   transition: all .2s;
-  position: relative;
-  z-index: -1;
+
 }
 
 .review-btn-one:hover {
   background-color: #45A29E;
-  top: 2px;
 }
 
 .review-btn-two {
   color: #0B0C10;
   background-color: #C5C6C7;
   transition: all .2s;
-  position: relative;
-  z-index: -1;
 }
 
 .review-btn-two:hover {
   background-color: #45A29E;
-  top: 2px;
 }
 
 .the-reviews {
