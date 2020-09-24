@@ -326,6 +326,7 @@ nav ul li a:hover {
   padding: 1%;
   padding-bottom: 2%;
   padding-left: 8%;
+  padding-right: 12%;
 }
 .mission-img img {
   border: none;
@@ -980,9 +981,6 @@ footer .footer-nav a:hover {
     font-size: 1.6rem;
     padding: 4% 5%;
   }
-  .mission-container div {
-    width: 95%;
-  }
   .hero h1 {
     margin-bottom: 5%;
   }
@@ -1003,15 +1001,6 @@ footer .footer-nav a:hover {
   main{
     margin: 0;
     padding: 0;
-  }
-  .mission-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .mission-container p {
-    width: 100%;
-    padding: 4%;
-    padding-bottom: 10%;
   }
   .reviews-headers-buttons {
     flex-direction: column;
@@ -1037,6 +1026,20 @@ footer .footer-nav a:hover {
   }
   footer .button-discover a {
     padding: 3% 6%;
+  }
+}
+@media (max-width: 701px) {
+  .mission-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mission-container p {
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 10%;
+  }
+  .mission-container div {
+    width: 95%;
   }
 }
 /* END MOBILE STYLING */
