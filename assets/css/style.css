@@ -93,7 +93,6 @@ header {
   font-family: 'Rubik', sans-serif;
 }
 #header .header {
-  min-height: 8vh;
   background-color: rgba(31, 30, 30, 0);
 }
 #header .nav-bar {
@@ -700,8 +699,6 @@ footer .footer-nav a:hover {
   box-shadow: inset 3px 3px 5px black;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  position: relative;
-  z-index: 1;
 }
 /* ABOUT STYLING */
 .about-top {
@@ -823,6 +820,9 @@ footer .footer-nav a:hover {
 @media(max-width: 592px) {
   #header .hamburger {
     display: flex;
+  }
+  #header .header {
+    min-height: 8vh;
   }
   .desktop-nav {
     display: none;
@@ -1019,6 +1019,24 @@ footer .footer-nav a:hover {
   }
   .reviews-headers-buttons a {
     margin-bottom: 1.5%;
+  }
+  .about-top .about-top-text h2 {
+    padding-bottom: 8%;
+  }
+  .about-middle .about-middle-text h2 {
+    padding-bottom: 8%;
+  }
+  .about-bottom .about-bottom-text h2 {
+    padding-bottom: 8%;
+  }
+  .button-discover {
+    margin-top: 6%;
+  }
+  footer .footer-nav {
+    margin-top: 8%;
+  }
+  footer .button-discover a {
+    padding: 3% 6%;
   }
 }
 /* END MOBILE STYLING */
